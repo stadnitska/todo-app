@@ -1,0 +1,17 @@
+body {
+  font-family: system-ui, sans-serif;
+  padding: 24px;
+  background: #f8fafc;
+  color: #111;
+}
+main { max-width: 600px; margin: 0 auto; }
+h1 { font-size: 28px; margin-bottom: 12px; }
+form { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; align-items: center; }
+#todo-input { flex: 1 1 200px; padding: 10px; border: 1px solid #ccc; border-radius: 6px; }
+#todo-done { width: 20px; height: 20px; cursor: pointer; }
+#add-button { padding: 10px 16px; border: none; background: #2563eb; color: #fff; border-radius: 6px; cursor: pointer; }
+#add-button:hover { background: #1d4ed8; }
+.todo-item { display: flex; justify-content: space-between; align-items: center; background: #fff; border: 1px solid #e5e7eb; padding: 8px 12px; border-radius: 6px; margin-bottom: 8px; }
+.todo-text.done { text-decoration: line-through; color: #6b7280; }
+.delete-btn { background: #ef4444; border: none; color: #fff; border-radius: 6px; padding: 6px 8px; cursor: pointer; }
+.delete-btn:hover { background: #dc2626; }
